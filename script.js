@@ -21,6 +21,18 @@ const perguntas = [
     },
     {
     enunciado: "pergunta2",
-    alternativas: ["alternativa1,alternativa2"]
+    alternativas:
+            [
+                {
+                    texto: "alternativa1",
+                    afirmacao: "afirmacao2"
+                },
+                {
+                    texto: "alternativa2",
+                    afirmacao: "afirmacao2"
+                },
+
+            ]
+
     }
 ];
