@@ -42,6 +42,6 @@ function mostrarPergunta() {
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
-function mostraAlternativas();{
-    
+function mostraAlternativas(){
+    //falta de Código//
 }
