@@ -1,3 +1,5 @@
+const { createElement } = require("react");
+
 const caixaPrincipal = document.querySelector(".caixa-pricipal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -20,8 +22,8 @@ const perguntas = [
             ]
     },
     {
-    enunciado: "pergunta2",
-    alternativas:
+        enunciado: "pergunta2",
+        alternativas:
             [
                 {
                     texto: "alternativa1",
@@ -42,6 +44,18 @@ function mostrarPergunta() {
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
-function mostraAlternativas(){
-    //falta de Código//
+let atual = 0;
+let perguntaAtual;
+function mostrarPergunta() {
+    perguntaAtual = perguntas[atual];
+    caixaAlternativas.textContent = perguntaAtua.enunciado;
+    mostraAlternativas();
 }
+function mostraAlternativas() {
+    for (const alternativa of perguntaAtual.alternativas) {
+        const botaoAlternativa = createElement("button")
+        botaoAlternativa.textContent = alternativa.texto;
+        caixaAlternativas.appendChild(botaoAlternativa);
+    }
+}
+mostrarPergunta();
