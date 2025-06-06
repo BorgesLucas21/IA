@@ -51,8 +51,14 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta(){
+    if (atual >= perguntas.length){
+        mostrarResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+
+
     mostraAlternativas();
 }
 function mostraAlternativas(){
@@ -72,3 +78,10 @@ function respostaselecionada(opcaoSelecionada){
     atual++;
     mostraPergunta();
 }
+
+function mostraResultado(){
+    caixaPerguntas.textContent = "conclusão...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+}
+mostrarPergunta();
