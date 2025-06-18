@@ -16,6 +16,10 @@ const perguntas = [
                 texto: "Ferrari",
                 afirmacao: "A Ferrari está a baixo da Red Bull"
             },
+            {
+                texto: "Mclaren",
+                afirmacao: "A Mclaren tem o carro mais rápido do grid"
+            },
         ]
     },
     {
