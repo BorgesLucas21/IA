@@ -9,16 +9,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Red Bull",
-                afirmacao: "A Red Bull tem o segundo melhor carro"
+                afirmacao: "A Red Bull tem o segundo melhor carro,"
                
             },
             {
                 texto: "Ferrari",
-                afirmacao: "A Ferrari está a baixo da Red Bull"
+                afirmacao: "A Ferrari está a baixo da Red Bull,"
             },
             {
                 texto: "Mclaren",
-                afirmacao: "A Mclaren tem o carro mais rápido do grid"
+                afirmacao: "A Mclaren tem o carro mais rápido do grid,"
             },
         ]
     },
@@ -27,15 +27,15 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Ayrton Senna",
-                afirmacao: "Ele possui 3 títulos mundiais"
+                afirmacao: "Ele possui 3 títulos mundiais,"
             },
             {
                 texto: "Michael Schumacher",
-                afirmacao: "Ele possui 7 títulos Mundiais junto de Lewis Hamilton"
+                afirmacao: "Ele possui 7 títulos Mundiais junto de Lewis Hamilton,"
             },
             {
                 texto: "Alain Prost",
-                afirmacao: "Ele possui 4 títulos Mundias"
+                afirmacao: "Ele possui 4 títulos Mundias,"
             },
             
         ]
