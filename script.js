@@ -26,16 +26,16 @@ const perguntas = [
         enunciado: "Qual destes pilotos conquistou o maior número de campeonatos mundiais na F1 (até o momento) ?",
         alternativas: [
             {
-                texto: "alternativa1",
-                afirmacao: "afirmacao1"
+                texto: "Ayrton Senna",
+                afirmacao: "Ele possui 3 títulos mundiais"
             },
             {
-                texto: "alternativa2",
-                afirmacao: "afirmacao2"
+                texto: "Michael Schumacher",
+                afirmacao: "Ele possui 7 títulos Mundiais junto de Lewis Hamilton"
             },
             {
-                texto: "alternativa3",
-                afirmacao: "afirmacao3"
+                texto: "Alain Prost",
+                afirmacao: "Ele possui 4 títulos Mundias"
             },
             
         ]
