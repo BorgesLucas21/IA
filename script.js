@@ -41,11 +41,15 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta3",
+        enunciado: "O que significa a sigla "DRS" na Fórmula 1",
         alternativas: [
             {
                 texto: "alternativa1",
                 afirmacao: "afirmacao1"
+            },
+            {
+                texto: "alternativa2",
+                afirmacao: "afirmacao2"
             },
             {
                 texto: "alternativa2",
