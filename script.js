@@ -5,16 +5,16 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "Como resolver equação do segundo grau?",
+        enunciado: "Qual equipe você acha que terá o melhor desempenho nesta temporada ?",
         alternativas: [
             {
-                texto: "aplicar a formula de Bhaskara",
-                afirmacao: "Aplicando a formula de Bhaskara voce pode resolver de forma mais demorada"
+                texto: "Red Bull",
+                afirmacao: "A Red Bull tem o segundo melhor carro"
                
             },
             {
-                texto: "Soma e produto",
-                afirmacao: "usando soma e produto voce pode economizar tempo"
+                texto: "Ferrari",
+                afirmacao: "A Ferrari está a baixo da Red Bull"
             },
         ]
     },
