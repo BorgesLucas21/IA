@@ -19,7 +19,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta2",
+        enunciado: "Qual destes pilotos conquistou o maior número de campeonatos mundiais na F1 (até o momento) ?",
         alternativas: [
             {
                 texto: "alternativa1",
@@ -29,6 +29,11 @@ const perguntas = [
                 texto: "alternativa2",
                 afirmacao: "afirmacao2"
             },
+            {
+                texto: "alternativa3",
+                afirmacao: "afirmacao3"
+            },
+            
         ]
     },
     {
