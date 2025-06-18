@@ -44,16 +44,16 @@ const perguntas = [
         enunciado: "O que significa a sigla "DRS" na Fórmula 1",
         alternativas: [
             {
-                texto: "alternativa1",
-                afirmacao: "afirmacao1"
+                texto: "Sistema de Redução de Arrasto",
+                afirmacao: "Sitema de Redução de Arrasto está correta"
             },
             {
-                texto: "alternativa2",
-                afirmacao: "afirmacao2"
+                texto: "Dispositivo de Resposta Rápida",
+                afirmacao: "Dispositivo de Resposta Rápida está errada"
             },
             {
-                texto: "alternativa2",
-                afirmacao: "afirmacao2"
+                texto: "Diferencial de Rotação Suave",
+                afirmacao: "Diferencial de Rotação Suave está errado"
             },
         ]
     },
