@@ -41,7 +41,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "O que significa a sigla "DRS" na Fórmula 1",
+        enunciado: "O que significa a sigla DRS na Fórmula 1",
         alternativas: [
             {
                 texto: "Sistema de Redução de Arrasto",
