@@ -5,7 +5,7 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "Qual equipe você acha que terá o melhor desempenho nesta temporada ?",
+        enunciado: "Qual equipe você acha que tem o melhor desempenho nesta temporada ?",
         alternativas: [
             {
                 texto: "Red Bull",
