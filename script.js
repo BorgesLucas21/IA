@@ -45,7 +45,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sistema de Redução de Arrasto",
-                afirmacao: "Sitema de Redução de Arrasto está correta"
+                afirmacao: "Sistema de Redução de Arrasto está correta"
             },
             {
                 texto: "Dispositivo de Resposta Rápida",
